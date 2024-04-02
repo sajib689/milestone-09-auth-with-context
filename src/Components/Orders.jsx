@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 
 
 const Orders = () => {
-    const { ref, inView, entry } = useInView({
+    const { ref, inView } = useInView({
         /* Optional options */
         threshold: 0,
         delay: 2000,
